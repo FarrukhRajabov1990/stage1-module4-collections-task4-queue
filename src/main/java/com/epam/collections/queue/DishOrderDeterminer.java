@@ -8,7 +8,7 @@ public class DishOrderDeterminer {
         Queue<Integer> queue = new LinkedList<>();
         List<Integer> eatenDishes = new LinkedList<>();
 
-        for (int i = 1; i < numberOfDishes; i++) {
+        for (int i = 1; i <= numberOfDishes; i++) {
             queue.add(i);
         }
 
